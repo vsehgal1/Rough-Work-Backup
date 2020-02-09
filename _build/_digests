@@ -1,0 +1,4 @@
+"Rule: ocaml: ml -> cmo & cmi (%=hello )": "\135MpTbJ\171|T\242\198\184\165\156\133\n"
+"Rule: ocaml dependencies ml (%=hello )": "\252\241\196\158z4\197\166\216Ti\127\195\003\160\217"
+"Rule: ocaml: cmo* -> byte (%=hello )": "\153g\169\t\149\238\195\031&b\221\150\021\240,*"
+"Resource: /home/vikram/Documents/CS/rough/hello.ml": "s\237\239\247\217\150ZsC\130-\197vk\197+"

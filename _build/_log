@@ -1,0 +1,8 @@
+### Starting build.
+# Target: hello.ml.depends, tags: { extension:ml, file:hello.ml, ocaml, ocamldep, quiet }
+/home/vikram/.opam/4.07.0/bin/ocamldep.opt -modules hello.ml > hello.ml.depends
+# Target: hello.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:hello.cmo, file:hello.ml, implem, ocaml, quiet }
+/home/vikram/.opam/4.07.0/bin/ocamlc.opt -c -o hello.cmo hello.ml
+# Target: hello.byte, tags: { byte, dont_link_with, extension:byte, file:hello.byte, link, ocaml, program, quiet }
+/home/vikram/.opam/4.07.0/bin/ocamlc.opt hello.cmo -o hello.byte
+# Compilation successful.
